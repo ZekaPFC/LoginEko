@@ -1,4 +1,4 @@
-package com.marko.logineko.DI
+package com.marko.logineko.di
 
 import com.marko.logineko.data.vehicle.VehicleRepositoryImpl
 import com.marko.logineko.domain.vehicleData.VehicleRepository

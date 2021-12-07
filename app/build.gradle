@@ -17,7 +17,7 @@ android {
     }
 
     defaultConfig {
-        buildConfigField "String", "BASE_URL", '\"https://192.168.1.4:5001/\"'
+        buildConfigField "String", "BASE_URL", '\"https://805c-178-220-33-189.ngrok.io/\"'
         javaCompileOptions {
             annotationProcessorOptions {
                 arguments += [
@@ -65,7 +65,7 @@ dependencies {
     //noinspection UseOfBundledGooglePlayServices
     implementation 'com.google.android.gms:play-services:12.0.1'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.4.0'
-    testImplementation 'junit:junit:4.+'
+    testImplementation 'junit:junit:'
     implementation "androidx.room:room-runtime:$room_version"
     implementation "androidx.room:room-ktx:$room_version"
     kapt "androidx.room:room-compiler:$room_version"

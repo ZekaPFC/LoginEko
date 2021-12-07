@@ -1,5 +1,6 @@
 package com.marko.logineko.presentation.vehicleData
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
@@ -34,6 +35,7 @@ class VehicleDataAdapter(
         return items.size
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     fun addItems(items: List<VehicleData>, clear: Boolean) {
         if (clear) {
             this.items.clear()
