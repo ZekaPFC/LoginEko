@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LoginEko</string>
+    <string name="no_internet_connection">Network not available</string>
+    <string name="generic_error">Something went wrong, try again later!</string>
+    <string name="average">Avg</string>
+    <string name="min">Min</string>
+    <string name="max">Max</string>
+    <string name="total_working_hours">Total working hours: </string>
+    <string name="no_vehicle_data">We don\'t currently have vehicle data</string>
+    <string name="error_while_loading_path">Error occurred while loading vehicle path</string>
+</resources>

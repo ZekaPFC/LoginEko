@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/vehicleDataFragment">
+    <fragment
+        android:id="@+id/vehicleDataFragment"
+        android:name="com.marko.logineko.presentation.vehicleData.VehicleDataFragment"
+        android:label="VehicleDataFragment" >
+        <action
+            android:id="@+id/action_vehicleDataFragment_to_vehiclePathFragment"
+            app:destination="@id/vehiclePathFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/vehiclePathFragment"
+        android:name="com.marko.logineko.presentation.vehiclePath.VehiclePathFragment"
+        android:label="VehiclePathFragment" >
+        <argument
+            android:name="date"
+            app:argType="string" />
+    </fragment>
+</navigation>
